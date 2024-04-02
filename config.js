@@ -13,27 +13,27 @@ global.gurl = 'https://instagram.com/' // add your username
 global.sudo = process.env.SUDO || '2347039570336,923466319114'
 global.devs = '2347039570336';
 global.website = 'https://github.com/excelottah6/IZUKU-Md' //wa.me/+91000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/2912dd1d0665285ffc931.jpg'
 module.exports = {
   
   sessionName:  process.env.SESSION_ID ||  "SESSION ID PASTE HERE",
-  botname:   process.env.BOT_NAME === undefined ? 'IZUKU BOT' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'excel' : process.env.OWNER_NAME,
-  author:  process.env.PACK_INFO === undefined ? 'excel' : process.env.PACK_INFO.split(";")[0],
+  botname:   process.env.BOT_NAME === undefined ? 'Xhriss_Md' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? 'xhriss' : process.env.OWNER_NAME,
+  author:  process.env.PACK_INFO === undefined ? 'xhriss' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO === undefined ? 'IZUKU-Md' : process.env.PACK_INFO.split(";")[1],
+  packname:  process.env.PACK_INFO === undefined ? 'Xhriss_Md' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
-  alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
+  alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? true : process.env.ALWAYS_ONLINE,
   typingprensence:  process.env.TYPING === undefined ? false : process.env.TYPING,
 recordingpresence:  process.env.RECORDING === undefined ? false : process.env.RECORDING,	
-  antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '971' : process.env.FAKE_COUNTRY_CODE,
+  antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '254' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
-  warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
+  warncount : process.env.WARN_COUNT === undefined ? 2 : process.env.WARN_COUNT,
   disablepm:  process.env.DISABLE_PM === undefined ? false : process.env.DISABLE_PM,
-  levelupmessage:  process.env.LEVEL_UP_MESSAGE === undefined ? true : process.env.LEVEL_UP_MESSAGE,
+  levelupmessage:  process.env.LEVEL_UP_MESSAGE === undefined ? false : process.env.LEVEL_UP_MESSAGE,
   antilink:  process.env.ANTILINK_VALUES === undefined ? 'chat.whatsapp.com' : process.env.ANTILINK_VALUES,
   antilinkaction: process.env.ANTILINK_ACTION === undefined ? 'remove' : process.env.ANTILINK_ACTION,
   BRANCH: 'main', 
